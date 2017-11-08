@@ -4,12 +4,12 @@ one:
   title: MyString
   description: MyString
   text: MyString
-  image_url: MyString
+  image_url: MyString.gif
   price: 9.99
 
 two:
   title: MyString
   description: MyString
   text: MyString
-  image_url: MyString
+  image_url: MyString.jpg
   price: 9.99
