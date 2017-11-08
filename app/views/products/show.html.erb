@@ -24,15 +24,7 @@
   <strong>Description:</strong>
 </td>
 <td>
-  <%= @product.description %>
-</td>
-</tr>
-
-<td>
-  <strong>Text:</strong>
-</td>
-<td>
-  <%= @product.text %>
+  <%= strip_tags(@product.description) %>
 </td>
 </tr>
 
@@ -40,7 +32,7 @@
   <strong>Image url:</strong>
 </td>
 <td>
-  <%= @product.image_url %>
+  <%= image_tag(@product.image_url) %>
 </td>
 </tr>
 
